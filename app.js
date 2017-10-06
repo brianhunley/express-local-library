@@ -10,6 +10,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var catalog = require('./routes/catalog');
 var compression = require('compression');
+var helmet = require('helmet');
 var wiki = require('./routes/wiki');
 
 // create the Express application object
